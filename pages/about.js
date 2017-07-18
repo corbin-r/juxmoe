@@ -41,7 +41,7 @@ export default () => (
 							<h3 className="hero-title-sub">
 								With a propensity towards
 									<ul>
-										<li>❯ Success driven</li>
+										<li>❯ Success driven design</li>
 										<li>❯ Proclivity towards always learning</li>
 										<li>❯ Object oriented thinking and design</li>
 									</ul>

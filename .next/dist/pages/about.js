@@ -141,7 +141,7 @@ exports.default = function () {
 			fileName: _jsxFileName,
 			lineNumber: 44
 		}
-	}, '\u276F Success driven'), _react2.default.createElement('li', {
+	}, '\u276F Success driven design'), _react2.default.createElement('li', {
 		__source: {
 			fileName: _jsxFileName,
 			lineNumber: 45

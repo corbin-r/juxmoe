@@ -3,7 +3,7 @@ html, body {
   margin: 0;
   padding: 0;
   display: block;
-  font-family: -apple-system, "Montserrat",BlinkMacSystemFont, "Roboto", sans-serif;
+  font-family: -apple-system, "Roboto", BlinkMacSystemFont, "Montserrat", sans-serif;
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
