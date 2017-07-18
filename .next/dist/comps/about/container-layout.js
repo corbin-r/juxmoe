@@ -19,7 +19,7 @@ var layoutStyle = {
 };
 
 var ContainerLayout = function ContainerLayout(props) {
-	return _react2.default.createElement('div', { className: 'next-container-layout col-xlg', style: layoutStyle, __source: {
+	return _react2.default.createElement('div', { className: 'next-container-layout col-xlg', style: layoutStyle, 'data-push': props.push, __source: {
 			fileName: _jsxFileName,
 			lineNumber: 8
 		}

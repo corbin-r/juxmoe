@@ -5,7 +5,7 @@ import Header from '../comps/header'
 export default () => (
 	<div>
 		<Header />
-		  <Navbar  isFull="false" isDark="false" />
+		  <Navbar isFull="false" isDark="false" />
 		  <HeroIntro />
 
 		  <div className="masthead-container-full mast-project--main col-full" id="main-project" data-force-color="hyperline">

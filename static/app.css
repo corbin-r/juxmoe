@@ -3,7 +3,7 @@ html, body {
   margin: 0;
   padding: 0;
   display: block;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
+  font-family: -apple-system, "Montserrat",BlinkMacSystemFont, "Roboto", sans-serif;
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
@@ -469,10 +469,41 @@ img {
 }
 
 
+.next-container-layout[data-push="true"] {
+    margin: 0 auto 100px auto !important;
+}
 
 .hero-title-container {
-    background: #eee;
-    height: 550px
+    height: auto;
+    margin: 10px auto;
+}
+
+.title-talking-points {
+
+}
+
+.hero-point-container {
+    margin: 25px auto 0 auto;
+}
+
+.hero-title-item,
+.hero-title-sub {
+    color: #fff;
+    text-align: left;
+}
+
+.hero-title-item {
+    font-size: 48pt;
+    margin: 0;
+}
+
+.hero-title-sub {
+    margin-left: 40px;
+    color: #eee
+}
+
+.hero-title-sub ul {
+    list-style-type: none
 }
 
 /*

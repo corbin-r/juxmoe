@@ -5,7 +5,7 @@ const layoutStyle = {
 }
 
 const ContainerLayout = (props) => (
-	<div className="next-container-layout col-xlg" style={ layoutStyle }>
+	<div className="next-container-layout col-xlg" style={ layoutStyle } data-push={ props.push }>
 		{props.children}
 	</div>
 )
