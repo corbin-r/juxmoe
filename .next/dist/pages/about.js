@@ -20,7 +20,7 @@ var _aboutHeader = require('../comps/about/about-header');
 
 var _aboutHeader2 = _interopRequireDefault(_aboutHeader);
 
-var _containerLayout = require('../comps/about/container-layout');
+var _containerLayout = require('../comps/container-layout');
 
 var _containerLayout2 = _interopRequireDefault(_containerLayout);
 
@@ -72,7 +72,7 @@ exports.default = function () {
 			fileName: _jsxFileName,
 			lineNumber: 18
 		}
-	}, 'Intelligently designing systems in', _react2.default.createElement('ul', {
+	}, '4 years experience working in', _react2.default.createElement('ul', {
 		__source: {
 			fileName: _jsxFileName,
 			lineNumber: 20

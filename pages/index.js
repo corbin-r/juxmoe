@@ -13,7 +13,7 @@ export default () => (
 			  <h1>Main Projects I work on</h1>
 			</div>
 			<div className="masthead-content-project content-card content-popout-massive">
-			  <img className="prev-project-img" src="/static/hyperline.png"></img>
+			  <img className="prev-project-img" src="/static/i/hyperline.png"></img>
 			  <div className="project-intro-right" data-force-push="right">
 				<h5>Hyperline</h5>
 			  </div>

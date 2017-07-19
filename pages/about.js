@@ -1,7 +1,7 @@
 import Header from '../comps/header'
 import Navbar from '../comps/navbar'
 import AboutHeader from '../comps/about/about-header'
-import ContainerLayout from '../comps/about/container-layout'
+import ContainerLayout from '../comps/container-layout'
 
 export default () => (
 	<div>
@@ -16,7 +16,7 @@ export default () => (
 						<div className="hero-point-container col-md">
 							<h1 className="hero-title-item">Programmer</h1>
 							<h3 className="hero-title-sub">
-								Intelligently designing systems in
+								4 years experience working in
 									<ul>
 										<li>❯ Node</li>
 										<li>❯ React</li>
@@ -37,7 +37,7 @@ export default () => (
 						</div>
 
 						<div className="hero-point-container col-md">
-							<h1 className="hero-title-item">Thinker</h1>
+							<h1 className="hero-title-item">Innovator</h1>
 							<h3 className="hero-title-sub">
 								With a propensity towards
 									<ul>

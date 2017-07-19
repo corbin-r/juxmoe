@@ -10,7 +10,7 @@ var _react2 = _interopRequireDefault(_react);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = '/Users/basedjux/Desktop/juxmoe/comps/about/container-layout.js';
+var _jsxFileName = '/Users/basedjux/Desktop/juxmoe/comps/container-layout.js';
 
 var layoutStyle = {
 	margin: '0 auto',

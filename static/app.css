@@ -430,17 +430,18 @@ img {
 
 .sticky-container .main-img {
     background-repeat: no-repeat;
-    background-image: url('/static/IMG.jpg');
+    background-image: url('/static/i/IMG.jpg');
     background-position: center top
 }
 
 .GHS_Image.main-img {
-    background-image: url('/static/IMG.jpg')
+    background-image: url('/static/i/IMG.jpg')
 }
 
 .sticky-container .blur-bg {
     -webkit-transition: opacity 800ms;
     transition: opacity 800ms;
+    will-change: opacity;
     opacity: 0.0001;
     -webkit-backdrop-filter: saturate(135%) blur(50px);
     backdrop-filter: saturate(135%) blur(50px);
@@ -505,6 +506,25 @@ img {
 .hero-title-sub ul {
     list-style-type: none
 }
+
+
+
+
+/* =====================
+    FPIViewController
+   =====================
+
+   All code below (until responsivity) pertains to the FPIViewController
+ */
+.next-layout__FPIViewController {
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+
+
 
 /*
     RESPONSIVITY
