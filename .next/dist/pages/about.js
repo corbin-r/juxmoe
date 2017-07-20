@@ -127,7 +127,7 @@ exports.default = function () {
 			fileName: _jsxFileName,
 			lineNumber: 40
 		}
-	}, 'Thinker'), _react2.default.createElement('h3', { className: 'hero-title-sub', __source: {
+	}, 'Innovator'), _react2.default.createElement('h3', { className: 'hero-title-sub', __source: {
 			fileName: _jsxFileName,
 			lineNumber: 41
 		}
@@ -146,12 +146,12 @@ exports.default = function () {
 			fileName: _jsxFileName,
 			lineNumber: 45
 		}
-	}, '\u276F Proclivity towards always learning'), _react2.default.createElement('li', {
+	}, '\u276F Always learning'), _react2.default.createElement('li', {
 		__source: {
 			fileName: _jsxFileName,
 			lineNumber: 46
 		}
-	}, '\u276F Object oriented thinking and design'))))))), _react2.default.createElement('script', { src: '/static/blurtrans.js', __source: {
+	}, '\u276F Tackling problems head on'))))))), _react2.default.createElement('script', { src: '/static/blurtrans.js', __source: {
 			fileName: _jsxFileName,
 			lineNumber: 53
 		}

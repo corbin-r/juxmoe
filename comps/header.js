@@ -11,7 +11,7 @@ export default () => (
 		<link rel="dns-prefetch" href="https://ajax.googleapis.com"></link>
 		<link rel="dns-prefetch" href="https://cdnjs.cloudflare.com"></link>
 		<link rel="dns-prefetch" href="https://twemoji.maxcdn.com"></link>
-		<link href="//fonts.googleapis.com/css?family=Montserrat:300,400,600|Roboto:300,400,700|Pacifico|Playfair+Display" rel="stylesheet"></link>
+		<link href="//fonts.googleapis.com/css?family=Roboto:300,400,700|Pacifico|Playfair+Display|Product+Sans" rel="stylesheet"></link>
 		<link rel="stylesheet" href="/static/app.css"></link>
 		<script src="//use.fontawesome.com/d14dbb5360.js"></script>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

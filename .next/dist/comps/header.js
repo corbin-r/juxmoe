@@ -59,7 +59,7 @@ exports.default = function () {
 			fileName: _jsxFileName,
 			lineNumber: 13
 		}
-	}), _react2.default.createElement("link", { href: "//fonts.googleapis.com/css?family=Montserrat:300,400,600|Roboto:300,400,700|Pacifico|Playfair+Display", rel: "stylesheet", __source: {
+	}), _react2.default.createElement("link", { href: "//fonts.googleapis.com/css?family=Roboto:300,400,700|Pacifico|Playfair+Display|Product+Sans", rel: "stylesheet", __source: {
 			fileName: _jsxFileName,
 			lineNumber: 14
 		}

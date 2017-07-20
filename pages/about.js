@@ -42,8 +42,8 @@ export default () => (
 								With a propensity towards
 									<ul>
 										<li>❯ Success driven design</li>
-										<li>❯ Proclivity towards always learning</li>
-										<li>❯ Object oriented thinking and design</li>
+										<li>❯ Always learning</li>
+										<li>❯ Tackling problems head on</li>
 									</ul>
 							</h3>
 						</div>

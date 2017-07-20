@@ -3,7 +3,7 @@ html, body {
   margin: 0;
   padding: 0;
   display: block;
-  font-family: -apple-system, "Roboto", BlinkMacSystemFont, "Montserrat", sans-serif;
+  font-family: -apple-system, "Product Sans", "Roboto", BlinkMacSystemFont, sans-serif;
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
@@ -357,7 +357,6 @@ img {
 .project-intro-right h5, .project-intro-right sub {
   font-size: 35pt;
   margin: 50px 0 10px 50px;
-  font-family: "Montserrat";
   color: #333;
 }
 .project-intro-right sub {
@@ -368,7 +367,7 @@ img {
   padding: 30px;
 }
 .project-intro-expo p {
-  font: 400 14pt/1.2em -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
+  font-size: 14px;
   color: #333;
 }
 
@@ -389,7 +388,7 @@ img {
 .masthead-project-title h1 {
   text-align: center;
   color: #fff;
-  font: 400 42pt/1.2em "Montserrat";
+  font-size: 42pt;
   text-transform: uppercase;
   margin: 0;
 }
@@ -461,7 +460,7 @@ img {
 
 .about-title-hero-header {
     color: #fff;
-    font: Normal 72pt/1.2em -apple-system, "Montserrat", "Segoe UI", sans-serif;
+    font-size: 72pt;
     position: absolute;
     top: 400px;
     left: 50%;
