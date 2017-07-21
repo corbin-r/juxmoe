@@ -3,7 +3,7 @@ html, body {
   margin: 0;
   padding: 0;
   display: block;
-  font-family: -apple-system, "Product Sans", "Roboto", BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, "Roboto", BlinkMacSystemFont, sans-serif;
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
@@ -193,6 +193,7 @@ img {
   transform: scale(1);
   position: relative;
   top: 3px;
+  font-family: -apple-system, "Roboto", sans-serif
 }
 .mastnav--left a:hover {
   transform: scale(1.1);
@@ -427,15 +428,27 @@ img {
     position: fixed;
 }
 
-.sticky-container .main-img {
+.sticky-container .main-img,
+.sticky-container .blur-img {
     background-repeat: no-repeat;
-    background-image: url('/static/i/IMG.jpg');
-    background-position: center top
+    background-position: center top;
+    -webkit-transition: opacity 800ms;
+    transition: opacity 800ms;
+    will-change: opacity;
 }
 
-.GHS_Image.main-img {
+.main-img {
     background-image: url('/static/i/IMG.jpg')
 }
+
+.blur-img {
+    background-image: url('/static/i/IMG-blur.jpg');
+    opacity: 0;
+    position: absolute;
+    z-index: 3;
+    top: 0
+}
+
 
 .sticky-container .blur-bg {
     -webkit-transition: opacity 800ms;
@@ -444,7 +457,6 @@ img {
     opacity: 0.0001;
     -webkit-backdrop-filter: saturate(135%) blur(50px);
     backdrop-filter: saturate(135%) blur(50px);
-    display: none;
     position: absolute;
     top: 0;
     left: 0;
@@ -453,10 +465,10 @@ img {
     z-index: 5
 }
 
-.sticky-container .blur-bg.active {
+.blur-bg.active,
+.blur-img.active {
     opacity: 0.9999
 }
-
 
 .about-title-hero-header {
     color: #fff;
@@ -478,12 +490,13 @@ img {
     margin: 10px auto;
 }
 
-.title-talking-points {
-
-}
-
 .hero-point-container {
     margin: 25px auto 0 auto;
+}
+
+.hero-title-item,
+.hero-title-sub { 
+  font-family: -apple-system, "Roboto", sans-serif
 }
 
 .hero-title-item,

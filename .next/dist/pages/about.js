@@ -151,9 +151,5 @@ exports.default = function () {
 			fileName: _jsxFileName,
 			lineNumber: 46
 		}
-	}, '\u276F Tackling problems head on'))))))), _react2.default.createElement('script', { src: '/static/blurtrans.js', __source: {
-			fileName: _jsxFileName,
-			lineNumber: 53
-		}
-	}));
+	}, '\u276F Tackling problems head on'))))))));
 };

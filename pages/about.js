@@ -50,6 +50,5 @@ export default () => (
 					</div>
 				</ContainerLayout>
 			</div>
-			<script src="/static/blurtrans.js"></script>
 	</div>
 )

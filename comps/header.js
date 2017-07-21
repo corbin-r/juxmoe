@@ -18,7 +18,8 @@ export default () => (
 		<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/jquery.gsap.min.js"></script>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/ScrollToPlugin.min.js"></script>
-		<script src="/static/modernizr.min.js"></script>
+		<script src="/static/modernizr-custom.js"></script>
 		<script src="/static/introworker.js"></script>
+		<script src="/static/blurtrans.js"></script>
 	</Head>
 )

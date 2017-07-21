@@ -4,10 +4,9 @@ const AboutHeader = () => (
 
 			<div className="sticky-container">
 				<figure className="GHS_Image main-img" style={{ display: 'block' }}></figure>
-				<figure className="GHS_Image blur-img" style={{ display: 'none' }}></figure>
+				<figure className="GHS_Image blur-img" style={{ display: 'block' }}></figure>
 				<div className="GHS_Image blur-bg" style={{ display: 'block' }}></div>
 			</div>
-
 			<h1 className="about-title-hero-header col-md pull-left">About me</h1>
 		</div>
 

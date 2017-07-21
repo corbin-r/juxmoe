@@ -29,7 +29,7 @@ var AboutHeader = function AboutHeader() {
 			fileName: _jsxFileName,
 			lineNumber: 6
 		}
-	}), _react2.default.createElement("figure", { className: "GHS_Image blur-img", style: { display: 'none' }, __source: {
+	}), _react2.default.createElement("figure", { className: "GHS_Image blur-img", style: { display: 'block' }, __source: {
 			fileName: _jsxFileName,
 			lineNumber: 7
 		}
@@ -39,7 +39,7 @@ var AboutHeader = function AboutHeader() {
 		}
 	})), _react2.default.createElement("h1", { className: "about-title-hero-header col-md pull-left", __source: {
 			fileName: _jsxFileName,
-			lineNumber: 11
+			lineNumber: 10
 		}
 	}, "About me")));
 };

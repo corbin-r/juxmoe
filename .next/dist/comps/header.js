@@ -87,13 +87,17 @@ exports.default = function () {
 			fileName: _jsxFileName,
 			lineNumber: 20
 		}
-	}), _react2.default.createElement("script", { src: "/static/modernizr.min.js", __source: {
+	}), _react2.default.createElement("script", { src: "/static/modernizr-custom.js", __source: {
 			fileName: _jsxFileName,
 			lineNumber: 21
 		}
 	}), _react2.default.createElement("script", { src: "/static/introworker.js", __source: {
 			fileName: _jsxFileName,
 			lineNumber: 22
+		}
+	}), _react2.default.createElement("script", { src: "/static/blurtrans.js", __source: {
+			fileName: _jsxFileName,
+			lineNumber: 23
 		}
 	}));
 };
