@@ -368,7 +368,9 @@ img {
   padding: 30px;
 }
 .project-intro-expo p {
-  font-size: 14px;
+  font-size: 24px;
+  font-weight: 200;
+  margin-bottom: 55px;
   color: #333;
 }
 

@@ -1,3 +1,5 @@
+
+
 const AboutHeader = () => (
 	<div className="GHS-about-container header-full col-full">
 		<div className="GHS-about-containing-image-box">
