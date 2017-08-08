@@ -28,7 +28,7 @@ export default () => (
 						<div className="hero-point-container col-md">
 							<h1 className="hero-title-item">Designer</h1>
 							<h3 className="hero-title-sub">
-								Skillful in
+								Skilled in
 									<ul>
 										<li>❯ Photoshop CC</li>
 										<li>❯ Sketch</li>

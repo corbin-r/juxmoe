@@ -1,10 +1,10 @@
 import Header from '../comps/header'
-import Navbar from '../comps/navbar'
+import UINavbarController from '../comps/ui-navbar'
 
 export default () => (
 	<div>
 		<Header />
-		<Navbar isFull="true" isDark="false" />
+		<UINavbarController isFull="true" isDark="false" />
 
 	</div>
 )

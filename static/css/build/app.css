@@ -371,11 +371,42 @@ img {
 }
 
 .masthead-content-project {
-  width: 650px;
+  width: calc(99.9% * 3/6 - (30px - 30px * 3/6));
+  margin-left: calc(99.9% * (-2/8 * -1) - (30px - 30px * (-2/8 * -1)) + 30px) !important; 
   background: #fff;
   border-radius: 4.5px;
   margin: 0 auto;
   padding: 10px;
+}
+
+.masthead-content-project:nth-child(1n) {
+  float: left;
+  margin-right: 30px;
+  clear: none;
+}
+
+.masthead-content-project:last-child {
+  margin-right: 0;
+}
+
+.masthead-content-project:nth-child(6n) {
+  margin-right: 0;
+  float: right;
+}
+
+.masthead-content-project:nth-child(6n + 1) {
+  clear: both;
+}
+
+.masthead-content-project:before {
+  content: '';
+  display: table;
+}
+
+.masthead-content-project:after {
+  content: '';
+  display: table;
+  clear: both;
 }
 
 .masthead-content-project#test1 {
@@ -386,15 +417,70 @@ img {
 
 .prev-project-img {
   margin: 30px 0 0 30px;
+  width: calc(99.9% * 1/3 - (30px - 30px * 1/3));
+}
+
+.prev-project-img:nth-child(1n) {
+  float: left;
+  margin-right: 30px;
+  clear: none;
+}
+
+.prev-project-img:last-child {
+  margin-right: 0;
+}
+
+.prev-project-img:nth-child(3n) {
+  margin-right: 0;
+  float: right;
+}
+
+.prev-project-img:nth-child(3n + 1) {
+  clear: both;
+}
+
+.prev-project-img img {
+  width: 125px;
+  margin-left: 70px;
 }
 
 .project-intro-right {
-  width: 440px;
+  width: calc(99.9% * 2/4 - (30px - 30px * 2/4));
 }
 
-.project-intro-right h5, .project-intro-right sub {
-  font-size: 35pt;
-  margin: 50px 0 10px 50px;
+.project-intro-right:nth-child(1n) {
+  float: left;
+  margin-right: 30px;
+  clear: none;
+}
+
+.project-intro-right:last-child {
+  margin-right: 0;
+}
+
+.project-intro-right:nth-child(4n) {
+  margin-right: 0;
+  float: right;
+}
+
+.project-intro-right:nth-child(4n + 1) {
+  clear: both;
+}
+
+.project-intro-right:before {
+  content: '';
+  display: table;
+}
+
+.project-intro-right:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.project-intro-right h5 {
+  font-size: 42pt;
+  margin: 50px 0 10px 0px;
   color: #333;
 }
 
@@ -404,6 +490,27 @@ img {
 
 .project-intro-expo {
   padding: 30px;
+  width: calc(99.9% * 4/6 - (30px - 30px * 4/6));
+  margin-left: calc(99.9% * (-1/8 * -1) - (30px - 30px * (-1/8 * -1)) + 30px) !important;
+}
+
+.project-intro-expo:nth-child(1n) {
+  float: left;
+  margin-right: 30px;
+  clear: none;
+}
+
+.project-intro-expo:last-child {
+  margin-right: 0;
+}
+
+.project-intro-expo:nth-child(6n) {
+  margin-right: 0;
+  float: right;
+}
+
+.project-intro-expo:nth-child(6n + 1) {
+  clear: both;
 }
 
 .project-intro-expo p {

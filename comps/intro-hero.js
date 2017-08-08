@@ -7,7 +7,7 @@ const HeroIntro = () => (
 		  <img className="masthead-self-prev" src="/static/i/me.jpg" />
 		</div>
 		<h1 className="supermast-banner">
-		  Hi! I am, Corbin!
+		  Hi! I'm, Corbin.
 		</h1>
 
 		<h3 className="supermast-sub-banner">
