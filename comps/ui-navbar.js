@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-const Navbar = (props) => (
+const UINavbarController = (props) => (
 	<nav role="navigation" className="mastnav--container nd navsm nav" data-is-full={ props.isFull } data-is-dark={ props.isDark }>
 	  <div className="mastnav mastnav--left">
 		<a className="nel masnav-home-link" href="/" target="_self">🏳️‍🌈</a>
@@ -24,4 +24,4 @@ const Navbar = (props) => (
 	</nav>
 )
 
-export default Navbar
+export default UINavbarController

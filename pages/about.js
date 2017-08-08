@@ -1,5 +1,5 @@
 import Header from '../comps/header'
-import Navbar from '../comps/navbar'
+import UINavbarController from '../comps/ui-navbar'
 import AboutHeader from '../comps/about/about-header'
 import ContainerLayout from '../comps/container-layout'
 
@@ -7,10 +7,10 @@ export default () => (
 	<div>
 		<Header />
 			<div className="masthead-outer--container">
-				<Navbar isFull="true" isDark="true" />
+				<UINavbarController isFull="true" isDark="true" />
 				<AboutHeader />
 
-				<ContainerLayout push="true">
+				<ContainerLayout marginData={{ margin: 0 + 'px' + 'auto'}}>
 					<div className="hero-title-container title-talking-points col-full">
 
 						<div className="hero-point-container col-md">

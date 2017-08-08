@@ -9,7 +9,7 @@ const AboutHeader = () => (
 				<figure className="GHS_Image blur-img" style={{ display: 'block' }}></figure>
 				<div className="GHS_Image blur-bg" style={{ display: 'block' }}></div>
 			</div>
-			<h1 className="about-title-hero-header col-md pull-left">About me</h1>
+			<h1 className="about-title-hero-header">About me</h1>
 		</div>
 
 	</div>

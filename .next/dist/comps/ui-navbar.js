@@ -14,10 +14,10 @@ var _link2 = _interopRequireDefault(_link);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = "/Users/basedjux/Desktop/juxmoe/comps/navbar.js";
+var _jsxFileName = "/Users/basedjux/Desktop/juxmoe/comps/ui-navbar.js";
 
 
-var Navbar = function Navbar(props) {
+var UINavbarController = function UINavbarController(props) {
 	return _react2.default.createElement("nav", { role: "navigation", className: "mastnav--container nd navsm nav", "data-is-full": props.isFull, "data-is-dark": props.isDark, __source: {
 			fileName: _jsxFileName,
 			lineNumber: 4
@@ -73,4 +73,4 @@ var Navbar = function Navbar(props) {
 	}, "Contact")))));
 };
 
-exports.default = Navbar;
+exports.default = UINavbarController;

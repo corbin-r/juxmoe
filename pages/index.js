@@ -1,16 +1,16 @@
-import Navbar from '../comps/navbar'
+import UINavbarController from '../comps/ui-navbar'
 import HeroIntro from '../comps/intro-hero'
 import Header from '../comps/header'
 
 export default () => (
 	<div>
 		<Header />
-		  <Navbar isFull="false" isDark="false" />
+		  <UINavbarController isFull="false" isDark="false" />
 		  <HeroIntro />
 
 		  <div className="masthead-container-full mast-project--main col-full" id="main-project" data-force-color="hyperline">
 			<div className="masthead-project-title">
-			  <h1>Main Projects I work on</h1>
+			  <h1>Main Project I work on</h1>
 			</div>
 			<div className="masthead-content-project content-card content-popout-massive">
 			  <img className="prev-project-img" src="/static/i/hyperline.png"></img>

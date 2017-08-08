@@ -63,7 +63,7 @@ exports.default = function () {
 			fileName: _jsxFileName,
 			lineNumber: 14
 		}
-	}), _react2.default.createElement("link", { rel: "stylesheet", href: "/static/app.css", __source: {
+	}), _react2.default.createElement("link", { rel: "stylesheet", href: "/static/css/build/app.css", __source: {
 			fileName: _jsxFileName,
 			lineNumber: 15
 		}

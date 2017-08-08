@@ -44,33 +44,6 @@ img {
     height: auto;
 }
 
-/*
-    CORE COLUMNS
-*/
-.col-full {
-    width: 100%;
-}
-
-.col-xlg {
-    width: 1064px;
-}
-
-.col-lg {
-    width: 986px
-}
-
-.col-md {
-    width: 662px;
-}
-
-.col-sm {
-    width: 348px;
-}
-
-.col-sm {
-    width: 210px;
-}
-
 .pull-left {
     float: left;
 }
@@ -140,7 +113,7 @@ img {
 }
 
 .nav[data-is-full="true"] {
-    width: 100%;
+    lost-column: 1/1;
     left: 0;
     border-radius: 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1)
@@ -245,8 +218,8 @@ img {
 }
 
 .masthead-inner-container {
-  width: 435px;
-  height: 400px;
+  lost-column: 1/1;
+  float: none !important;
   margin: 300px auto;
   overflow: hidden;
 }
@@ -392,6 +365,7 @@ img {
   text-align: center;
   color: #fff;
   font-size: 42pt;
+  font-weight: 500;
   text-transform: uppercase;
   margin: 0;
 }
@@ -410,6 +384,7 @@ img {
 
 .GHS-about-container {
     /*background: #eee;*/
+    lost-column: 1/1;
     overflow: hidden;
 }
 
@@ -475,10 +450,11 @@ img {
 .about-title-hero-header {
     color: #fff;
     font-size: 72pt;
-    position: absolute;
-    top: 400px;
-    left: 50%;
-    margin-left: -250px;
+    // position: relative;
+    margin-top: 400px;
+    lost-column: 1/1;
+    lost-center: 2/3;
+    lost-align: center;
     z-index: 6;
 }
 
@@ -487,9 +463,17 @@ img {
     margin: 0 auto 100px auto !important;
 }
 
+.UIComponent_Layout {
+  padding: 0 20px;
+  z-index: 8;
+  lost-column: 1/1;
+  lost-center: 2/3;
+}
+
 .hero-title-container {
     height: auto;
     margin: 10px auto;
+    margin-bottom: 130px;
 }
 
 .hero-point-container {
