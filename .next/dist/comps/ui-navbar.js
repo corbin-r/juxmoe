@@ -62,15 +62,15 @@ var UINavbarController = function UINavbarController(props) {
 			fileName: _jsxFileName,
 			lineNumber: 17
 		}
-	}, "Gallery")), _react2.default.createElement(_link2.default, { prefetch: true, href: "", __source: {
+	}, "Gallery")), _react2.default.createElement(_link2.default, { prefetch: true, href: "https://corbin.life", __source: {
 			fileName: _jsxFileName,
 			lineNumber: 19
 		}
-	}, _react2.default.createElement("a", { className: "nel navbox-el cel", __source: {
+	}, _react2.default.createElement("a", { className: "nel navbox-el", __source: {
 			fileName: _jsxFileName,
 			lineNumber: 20
 		}
-	}, "Contact")))));
+	}, "Blog")))));
 };
 
 exports.default = UINavbarController;

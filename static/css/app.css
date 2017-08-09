@@ -103,11 +103,10 @@ img {
 }
 
 .nav[data-is-full="false"] {
-    width: 75%;
+    lost-column: 4/5;
+    lost-offset: 1/9;
     height: 55px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.12);
-    margin: 0 auto;
-    left: 13%;
     border-bottom-left-radius: 4.5px;
     border-bottom-right-radius: 4.5px;
 }
@@ -173,8 +172,8 @@ img {
 }
 
 .mastnav--right {
-  float: right;
-  width: 550px;
+  float: right !important;
+  lost-column: 3/7;
   height: 55px;
 }
 

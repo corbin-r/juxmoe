@@ -115,13 +115,31 @@ img {
 }
 
 .nav[data-is-full="false"] {
-    width: 75%;
+    width: calc(99.9% * 4/5 - (30px - 30px * 4/5));
+    margin-left: calc(99.9% * (-1/9 * -1) - (30px - 30px * (-1/9 * -1)) + 30px) !important;
     height: 55px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.12);
-    margin: 0 auto;
-    left: 13%;
     border-bottom-left-radius: 4.5px;
     border-bottom-right-radius: 4.5px;
+}
+
+.nav[data-is-full="false"]:nth-child(1n) {
+    float: left;
+    margin-right: 30px;
+    clear: none;
+}
+
+.nav[data-is-full="false"]:last-child {
+    margin-right: 0;
+}
+
+.nav[data-is-full="false"]:nth-child(5n) {
+    margin-right: 0;
+    float: right;
+}
+
+.nav[data-is-full="false"]:nth-child(5n + 1) {
+    clear: both;
 }
 
 .nav[data-is-full="true"] {
@@ -209,9 +227,28 @@ img {
 }
 
 .mastnav--right {
-  float: right;
-  width: 550px;
+  float: right !important;
+  width: calc(99.9% * 3/7 - (30px - 30px * 3/7));
   height: 55px;
+}
+
+.mastnav--right:nth-child(1n) {
+  float: left;
+  margin-right: 30px;
+  clear: none;
+}
+
+.mastnav--right:last-child {
+  margin-right: 0;
+}
+
+.mastnav--right:nth-child(7n) {
+  margin-right: 0;
+  float: right;
+}
+
+.mastnav--right:nth-child(7n + 1) {
+  clear: both;
 }
 
 .navbox-container {

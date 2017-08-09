@@ -16,8 +16,8 @@ const UINavbarController = (props) => (
 		  	<Link prefetch href="">
 				<a className="nel navbox-el" href="/gallery">Gallery</a>
 			</Link>
-		  	<Link prefetch href="">
-				<a className="nel navbox-el cel">Contact</a>
+		  	<Link prefetch href="https://corbin.life">
+				<a className="nel navbox-el">Blog</a>
 		  	</Link>
 		</ul>
 	  </div>
