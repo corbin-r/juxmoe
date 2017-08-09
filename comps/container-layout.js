@@ -4,10 +4,10 @@ const layoutStyle = {
 	zIndex: '8'
 }
 
-const ContainerLayout = (props) => (
+const UIGlobalLayout = (props) => (
 	<div className="UIComponent_Layout" style={ props.marginData } data-push={ props.push }>
 		{props.children}
 	</div>
 )
 
-export default ContainerLayout
+export default UIGlobalLayout

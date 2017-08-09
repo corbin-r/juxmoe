@@ -1,19 +1,20 @@
 import Header from '../comps/header'
 import UINavbarController from '../comps/ui-navbar'
 import UIAboutContainer from '../comps/about/about-header'
-import ContainerLayout from '../comps/container-layout'
+import UIGlobalLayout from '../comps/container-layout'
 
 export default () => (
 	<div>
 		<Header titleDescriptor="- About Me" />
-			<div className="masthead-outer--container">
 				<UINavbarController isFull="true" isDark="true" />
-				<UIAboutContainer />
+				<UIAboutContainer 
+					heroTitle="About"
+					descriptorTitle="Who the brain behind the monitor is" />
 
-				<ContainerLayout marginData={{ margin: 0 + 'px' + 'auto'}}>
-					<div className="hero-title-container title-talking-points col-full">
+				<UIGlobalLayout>
+					<div className="hero-title-container title-talking-points">
 
-						<div className="hero-point-container col-md">
+						<div className="hero-point-container">
 							<h1 className="hero-title-item">Programmer</h1>
 							<h3 className="hero-title-sub">
 								4 years experience working in
@@ -25,7 +26,7 @@ export default () => (
 							</h3>
 						</div>
 
-						<div className="hero-point-container col-md">
+						<div className="hero-point-container">
 							<h1 className="hero-title-item">Designer</h1>
 							<h3 className="hero-title-sub">
 								Skilled in
@@ -36,7 +37,7 @@ export default () => (
 							</h3>
 						</div>
 
-						<div className="hero-point-container col-md">
+						<div className="hero-point-container">
 							<h1 className="hero-title-item">Innovator</h1>
 							<h3 className="hero-title-sub">
 								With a propensity towards
@@ -48,7 +49,6 @@ export default () => (
 							</h3>
 						</div>
 					</div>
-				</ContainerLayout>
-			</div>
+				</UIGlobalLayout>
 	</div>
 )

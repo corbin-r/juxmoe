@@ -727,6 +727,7 @@ img {
   max-width: calc(99.9% * 2/3);
   margin-left: auto;
   margin-right: auto;
+  position: relative;
 }
 
 .UIComponent_Layout:nth-child(1n) {
@@ -760,8 +761,6 @@ img {
 }
 
 .hero-title-container {
-    height: auto;
-    margin: 10px auto;
     margin-bottom: 130px;
 }
 

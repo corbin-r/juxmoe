@@ -439,11 +439,10 @@ img {
   z-index: 8;
   lost-column: 1/1;
   lost-center: 2/3;
+  position: relative;
 }
 
 .hero-title-container {
-    height: auto;
-    margin: 10px auto;
     margin-bottom: 130px;
 }
 

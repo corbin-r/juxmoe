@@ -1,7 +1,7 @@
 
 
 const UIMastContainer = () => (
-	<div className="GHS-about-container header-full">
+	<div className="GHS-about-container">
 		<div className="GHS-about-containing-image-box">
 
 			<div className="sticky-container">
