@@ -16,7 +16,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var _jsxFileName = "/Users/basedjux/Desktop/juxmoe/comps/header.js";
 
-exports.default = function () {
+exports.default = function (props) {
 	return _react2.default.createElement(_head2.default, {
 		__source: {
 			fileName: _jsxFileName,
@@ -31,7 +31,7 @@ exports.default = function () {
 			fileName: _jsxFileName,
 			lineNumber: 6
 		}
-	}, "Corbin Matschull"), _react2.default.createElement("meta", { name: "description", content: "A simple blog for a flourishing mind.", __source: {
+	}, "Corbin Matschull ", props.titleDescriptor), _react2.default.createElement("meta", { name: "description", content: "A simple blog for a flourishing mind.", __source: {
 			fileName: _jsxFileName,
 			lineNumber: 7
 		}

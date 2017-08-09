@@ -1,6 +1,6 @@
 
 
-const AboutHeader = () => (
+const UIAboutContainer = () => (
 	<div className="GHS-about-container header-full col-full">
 		<div className="GHS-about-containing-image-box">
 
@@ -9,10 +9,10 @@ const AboutHeader = () => (
 				<figure className="GHS_Image blur-img" style={{ display: 'block' }}></figure>
 				<div className="GHS_Image blur-bg" style={{ display: 'block' }}></div>
 			</div>
-			<h1 className="about-title-hero-header">About me</h1>
+			<h1 className="about-title-hero-header">About</h1>
+			<h1 className="about-title-hero-header-sub">Who the brain behind the monitor is</h1>
 		</div>
-
 	</div>
 )
 
-export default AboutHeader
+export default UIAboutContainer

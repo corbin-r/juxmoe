@@ -1,14 +1,14 @@
 import Header from '../comps/header'
 import UINavbarController from '../comps/ui-navbar'
-import AboutHeader from '../comps/about/about-header'
+import UIAboutContainer from '../comps/about/about-header'
 import ContainerLayout from '../comps/container-layout'
 
 export default () => (
 	<div>
-		<Header />
+		<Header titleDescriptor="- About Me" />
 			<div className="masthead-outer--container">
 				<UINavbarController isFull="true" isDark="true" />
-				<AboutHeader />
+				<UIAboutContainer />
 
 				<ContainerLayout marginData={{ margin: 0 + 'px' + 'auto'}}>
 					<div className="hero-title-container title-talking-points col-full">
@@ -18,9 +18,9 @@ export default () => (
 							<h3 className="hero-title-sub">
 								4 years experience working in
 									<ul>
-										<li>❯ Node</li>
-										<li>❯ React</li>
-										<li>❯ Next</li>
+										<li><span>❯</span> Node</li>
+										<li><span>❯</span> React</li>
+										<li><span>❯</span> Next</li>
 									</ul>
 							</h3>
 						</div>
@@ -30,8 +30,8 @@ export default () => (
 							<h3 className="hero-title-sub">
 								Skilled in
 									<ul>
-										<li>❯ Photoshop CC</li>
-										<li>❯ Sketch</li>
+										<li><span>❯</span> Photoshop CC</li>
+										<li><span>❯</span> Sketch</li>
 									</ul>
 							</h3>
 						</div>
@@ -41,9 +41,9 @@ export default () => (
 							<h3 className="hero-title-sub">
 								With a propensity towards
 									<ul>
-										<li>❯ Success driven design</li>
-										<li>❯ Always learning</li>
-										<li>❯ Tackling problems head on</li>
+										<li><span>❯</span> Success driven design</li>
+										<li><span>❯</span> Always learning</li>
+										<li><span>❯</span> Tackling problems head on</li>
 									</ul>
 							</h3>
 						</div>

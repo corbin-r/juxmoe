@@ -1,9 +1,9 @@
 import Head from 'next/head'
 
-export default () => (
+export default (props) => (
 	<Head>
 		<meta charset="utf-8"></meta>
-		<title>Corbin Matschull</title>
+		<title>Corbin Matschull { props.titleDescriptor }</title>
 		<meta name="description" content="A simple blog for a flourishing mind."></meta>
 		<meta name="robots" content="index, follow"></meta>
 		<meta name="author" content="Corbin Matschull"></meta>

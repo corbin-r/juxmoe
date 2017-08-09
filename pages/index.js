@@ -1,18 +1,19 @@
 import UINavbarController from '../comps/ui-navbar'
 import HeroIntro from '../comps/intro-hero'
 import Header from '../comps/header'
+import UIMastContainer from '../comps/mastheader'
 
 export default () => (
 	<div>
-		<Header />
+		<Header titleDescriptor="- Home" />
 		  <UINavbarController isFull="false" isDark="false" />
-		  <HeroIntro />
+		  <UIMastContainer />
 
-		  <div className="masthead-container-full mast-project--main col-full" id="main-project" data-force-color="hyperline">
+		  <div className="mast-project--main col-full" id="main-project">
 			<div className="masthead-project-title">
-			  <h1>Main Project I work on</h1>
+			  <h1>Main Project</h1>
 			</div>
-			<div className="masthead-content-project content-card content-popout-massive">
+			<div className="masthead-content-project content-card">
 				<div className="prev-project-img">
 			  		<img src="/static/i/hyperline.png"></img>
 			  	</div>
@@ -32,6 +33,5 @@ export default () => (
 			  </div>
 			</div>
 		</div>
-		<script type="text/javascript" src="/static/introworker.js"></script>
 	</div>
 )
