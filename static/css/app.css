@@ -343,6 +343,7 @@ img {
 .GHS-about-container {
     lost-column: 1/1;
     overflow: hidden;
+    float: left !important;
 }
 
 .GHS-about-containing-image-box {
