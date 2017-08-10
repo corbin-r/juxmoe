@@ -142,7 +142,7 @@ img {
 
 .mastnav--right {
   float: right !important;
-  lost-column: 3/7;
+  lost-column: 2/7;
   height: 55px;
 }
 
@@ -152,6 +152,7 @@ img {
   display: flex;
   display: -webkit-flex;
   list-style-type: none;
+  float: right;
 }
 
 .navbox-el {
@@ -453,13 +454,9 @@ img {
 
 .hero-title-item,
 .hero-title-sub { 
-  font-family: -apple-system, "Roboto", sans-serif
-}
-
-.hero-title-item,
-.hero-title-sub {
-    color: #fff;
-    text-align: left;
+  font-family: -apple-system, "Roboto", sans-serif;
+  color: #fff;
+  text-align: left;
 }
 
 .hero-title-item {
@@ -472,12 +469,32 @@ img {
     color: #eee;
 }
 
+.hero-title-sub-lg {
+  font-size: 28pt;
+  margin-left: 40px;
+}
+
 .hero-title-sub ul {
-    list-style-type: none
+  list-style-type: none
 }
 
 .hero-title-sub ul li span {
   color: #fff;
+}
+
+.hero-title-sub ul li.inner-list {
+  margin-left: 40px;
+  color: #fff;
+}
+
+.hero-point-seperator {
+  lost-column: 1/1;
+  lost-center: 2/3;
+  margin: 45px 0;
+  float: none !important;
+  background: #fff;
+  height: 1px;
+  opacity: 0.6;
 }
 
 
