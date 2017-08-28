@@ -54,7 +54,7 @@ export default () => (
 						<div className="hero-point-container">
 							<h1 className="hero-title-item">Where I'm Located</h1>
 							<h3 className="hero-title-sub hero-title-sub-lg">
-								<span>❯</span> Utah
+								<span>❯</span> Utah, United States of America
 							</h3>
 						</div>
 						<div className="hero-point-container">
@@ -83,9 +83,8 @@ export default () => (
 							<h3 className="hero-title-sub">
 								Peak Payment Billing Solutions (2016-<i>Present</i>)
 									<ul>
-										<li><span>❯</span> Spent 1 and a half years <i>(did not complete)</i></li>
-										<li><span>❯</span> Studied Computer Science</li>
-										<li><span>❯</span> Minored in Music</li>
+										<li><span>Position ❯</span> IT Engineer</li>
+										<li><span>Front End Web Dev  ❯</span> Developed our website</li>
 									</ul>
 							</h3>
 						</div>																	
