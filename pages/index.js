@@ -23,14 +23,10 @@ export default () => (
 			  	</div>
 			  	<div className="project-intro-expo">
 					<p>
-				  	I am a core contributor to Hyperline, a
-					<InlineFontLink 
-					 	link="https://hyper.is"
-						staticClassName="hyper-link__INLINE"
-						linkTarget="_self"
-						linkText="HyperJS"
-					/>
-					 plugin, primarily written in JS and React.
+					  I am a core contributor to Hyperline, a&nbsp;<a 
+						  href="https://hyper.is"
+						  className="hyper-link__INLINE"
+						  target="_blank">HyperJS</a>&nbsp;plugin primarily written in JS and React.
 					</p>
 
 				<div className="core-button out-of-site-link center-in-container">

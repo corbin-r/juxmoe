@@ -128,7 +128,7 @@ img {
   text-decoration: none;
   font-size: 22pt;
   display: block;
-  padding: 10px 0;
+  padding: 4px 0;
   transition: all 0.55s ease-in-out;
   -webkit-transition: all 0.55s ease-in-out;
   -moz-transition: all 0.55s ease-in-out;
@@ -150,7 +150,7 @@ img {
 }
 
 .navbox-container {
-  margin: 9px;
+  margin: 6px 9px;
   padding: 0;
   display: flex;
   display: -webkit-flex;
@@ -160,7 +160,6 @@ img {
 
 .navbox-el {
   margin: 0 15px;
-  padding: 0;
   cursor: pointer;
   display: block;
   padding: 10px;
@@ -236,7 +235,7 @@ img {
 }
 
 .masthead-intro-list-el {
-  margin: 0 15px;
+  margin: 0 22px;
 }
 
 .anchor-mast-social {
