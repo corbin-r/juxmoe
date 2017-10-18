@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/basedjux/juxmoe#readme",
   "dependencies": {
+    "classnames": "^2.2.5",
     "firebase": "^4.2.0",
     "lodash": "^4.17.4",
     "next": "^3.0.1-beta.21",

@@ -2,12 +2,11 @@ import UINavbarController from '../comps/ui-navbar'
 import HeroIntro from '../comps/intro-hero'
 import Header from '../comps/header'
 import UIMastContainer from '../comps/mastheader'
-import InlineFontLink from '../comps/inline-text-link'
 
 export default () => (
 	<div>
 		<Header titleDescriptor="- Home" />
-		  <UINavbarController isFull="false" isDark="false" />
+			<UINavbarController />
 		  <UIMastContainer />
 
 		  <div className="mast-project--main col-full" id="main-project">

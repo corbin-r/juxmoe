@@ -6,7 +6,7 @@ import UIGlobalLayout from '../comps/container-layout'
 export default () => (
 	<div>
 		<Header titleDescriptor="- About Me" />
-				<UINavbarController isFull="true" isDark="true" />
+				<UINavbarController />
 				<UIAboutContainer 
 					heroTitle="About"
 					descriptorTitle="Who am I? What do I do? Where am I?" />

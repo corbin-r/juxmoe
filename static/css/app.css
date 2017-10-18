@@ -64,37 +64,23 @@ img {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea3fa9', endColorstr='#f6b63f',GradientType=1 );
 }
 
-.mastnav--container {
+nav {
   position: fixed;
   top: 0;
   z-index: 9999;
   padding: 0 15px;
+  height: 55px;
   background: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(20px) saturate(180%);
   -webkit-backdrop-filter: blur(20px) saturate(180%);
+  lost-column: 4/5;
+  lost-offset: 1/9;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  border-bottom-left-radius: 4.5px;
+  border-bottom-right-radius: 4.5px;
 }
 
-.nav[data-is-full="false"] {
-    lost-column: 4/5;
-    lost-offset: 1/9;
-    height: 55px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
-    border-bottom-left-radius: 4.5px;
-    border-bottom-right-radius: 4.5px;
-}
-
-.nav[data-is-full="true"] {
-    lost-column: 1/1;
-    left: 0;
-    border-radius: 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1)
-}
-
-.nav[data-is-dark="true"] {
-    background: rgba(0, 0, 0, 0.8)
-}
-
-.nav[data-is-dark="true"] .mastnav .nel {
+nav[class="dark"] .mastnav .nbl {
     color: #eee
 }
 
@@ -108,13 +94,13 @@ img {
   background: white;
 }
 
-.backdropfilter  .nav[data-is-dark="true"].nav--scrolled {
+.backdropfilter  nav[class="dark"].nav--scrolled {
     background: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(20px) saturate(180%);
     -webkit-backdrop-filter: blur(20px) saturate(180%);
 }
-.no-backdropfilter .nav[data-is-dark="true"].nav--scrolled {
-    background: rgba(0, 0, 0, 0.8)
+.no-backdropfilter nav[class="dark"].nav--scrolled {
+    background: rgba(0, 0, 0, 0.8);
 }
 
 .mastnav--left {
@@ -130,10 +116,6 @@ img {
   display: block;
   padding: 4px 0;
   transition: all 0.55s ease-in-out;
-  -webkit-transition: all 0.55s ease-in-out;
-  -moz-transition: all 0.55s ease-in-out;
-  -o-transition: all 0.55s ease-in-out;
-  -ms-transition: all 0.55s ease-in-out;
   transform: scale(1);
   position: relative;
   top: 3px;
@@ -158,28 +140,25 @@ img {
   float: right;
 }
 
-.navbox-el {
+.nbl {
   margin: 0 15px;
   cursor: pointer;
   display: block;
-  padding: 10px;
+  padding: 10px 0;
+  width: 114px;
   text-decoration: none;
   color: #333;
   transition: all 0.35s ease-in-out;
-  -webkit-transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
-  -ms-transition: all 0.35s ease-in-out;
   border-radius: 3.5px;
   background: none;
   box-shadow: none;
   text-align: center;
   cursor: pointer;
 }
-.navbox-el:hover {
+.nbl:hover {
   background: rgba(255, 255, 255, 0.7);
 }
-.navbox-el:active {
+.nbl:active {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
@@ -535,7 +514,7 @@ img {
     width: 500px;
   }
 
-  .navbox-el {
+  .nbl {
     margin: 0 5px;
   }
 
@@ -543,7 +522,7 @@ img {
     font-size: 11pt;
   }
 
-  .navbox-el[data-force-push="right"] {
+  .nbl[data-force-push="right"] {
     left: 25px;
   }
 
