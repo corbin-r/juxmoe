@@ -7,13 +7,16 @@ const postcss = require('gulp-postcss')
 const sourcemaps = require('gulp-sourcemaps')
 
 
+const style = 'static/css/app.css'
+const buildDir = 'static/css/build/'
+
 gulp.task('css', (cb) => {
-		return watch('static/css/app.css', () => {
-			gulp.src('static/css/app.css')
+		return watch(style, () => {
+			gulp.src(style)
 			.pipe(plumber())
 			.pipe(sourcemaps.init())
 			.pipe(postcss([ require('precss'), require('autoprefixer'), require('lost')]))
 			.pipe(sourcemaps.write('.'))
-			.pipe(gulp.dest('static/css/build/'));
+			.pipe(gulp.dest(buildDir));
 	})
 })

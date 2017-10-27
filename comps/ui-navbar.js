@@ -3,8 +3,7 @@ import Link from 'next/link'
 const UINavbarController = (props) => (
 	<nav 
 		role="navigation"
-		className={ 'large' in props && 'large' }
-		className={ 'dark' in props && 'dark' }
+		className="mastnav--container"
 		>
 	  <div className="mastnav mastnav--left">
 		<Link href="/" prefetch><a>🦄</a></Link>
@@ -20,7 +19,7 @@ const UINavbarController = (props) => (
 		</ul>
 	  </div>
 	  <style jsx>{`
-	  	.dark {
+	  .dark {
 		  background: rgba(0, 0, 0, 0.8); 
 		}
 		.dark .mastnav--right ul a {

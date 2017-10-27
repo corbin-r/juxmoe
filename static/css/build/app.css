@@ -590,15 +590,15 @@ nav[class="dark"] .mastnav .nbl {
 }
 
 .main-img {
-    background-image: url('/static/i/img_forest.jpg')
+    background-image: url('/static/i/i-city.jpg')
 }
 
 .main-img.log {
-    background-image: url('/static/i/img_log.jpg')
+    background-image: url('/static/i/i-leaf.jpg')
 }
 
 .blur-img {
-    background-image: url('/static/i/img_forest_blur.jpg');
+    background-image: url('/static/i/i-city-blur.jpg');
     opacity: 0;
     position: absolute;
     z-index: 3;
@@ -606,7 +606,7 @@ nav[class="dark"] .mastnav .nbl {
 }
 
 .blur-img.log {
-    background-image: url('/static/i/img_log_blur.jpg');
+    background-image: url('/static/i/i-leaf-blur.jpg');
     opacity: 0;
     position: absolute;
     z-index: 3;
@@ -833,14 +833,16 @@ nav[class="dark"] .mastnav .nbl {
 */
 
 @media screen and (max-width: 774px) {
-  .mastnav--container.navsm {
+  .mastnav--container {
     width: 100%;
     border-radius: 0;
     left: 0;
+    margin-left: 0 !important;
+    margin-right: 30px !important;
   }
 
   .mastnav--right {
-    width: 500px;
+    width: 300px;
   }
 
   .nbl {
