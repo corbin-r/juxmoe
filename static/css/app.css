@@ -540,3 +540,10 @@ nav[class="dark"] .mastnav .nbl {
     padding: 35px;
   }
 }
+
+
+.UIComponent_BurnIn_Test {
+  width: 100vw;
+  height: 100vh;
+  background: #9E9E9E
+}

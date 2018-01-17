@@ -4,7 +4,7 @@ const HeroIntro = () => (
 	<div className="masthead-inner-container presentation-header--container">
 	  <div className="masthead-hero">
 		<div className="masthead-inner-image-prev">
-		  <img className="masthead-self-prev" src="/static/i/me.jpg" />
+		  <img className="masthead-self-prev" src="/static/i/me2.jpg" />
 		</div>
 		<h1 className="supermast-banner">
 		  Hi! I'm, Corbin.

@@ -871,4 +871,9 @@ nav[class="dark"] .mastnav .nbl {
   }
 }
 
+.UIComponent_BurnIn_Test {
+  width: 100vw;
+  height: 100vh;
+  background: #9E9E9E
+}
 /*# sourceMappingURL=app.css.map */
