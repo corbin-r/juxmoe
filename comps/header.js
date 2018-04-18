@@ -13,12 +13,16 @@ export default (props) => (
 		<link rel="dns-prefetch" href="https://twemoji.maxcdn.com"></link>
 		<link href="//fonts.googleapis.com/css?family=Roboto:300,400,700|Pacifico|Playfair+Display|Montserrat" rel="stylesheet"></link>
 		<link rel="stylesheet" href="/static/css/build/app.css"></link>
-		<script src="//use.fontawesome.com/d14dbb5360.js"></script>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/jquery.gsap.min.js"></script>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/ScrollToPlugin.min.js"></script>
 		<script src="/static/modernizr-custom.js"></script>
 		<script src="/static/app.js"></script>
+		<script defer 
+				src="https://pro.fontawesome.com/releases/v5.0.10/js/all.js"
+				integrity="sha384-+1nLPoB0gaUktsZJP+ycZectl3GX7wP8Xf2PE/JHrb7X1u7Emm+v7wJMbAcPr8Ge"
+				crossorigin="anonymous">
+		</script>
 	</Head>
 )

@@ -26,25 +26,25 @@ const UIMastContainer = () => (
 					<ul className="masthead-intro-list">
 					<li className="masthead-intro-list-el">
 						<div>
-							<a className="anchor-mast-social" id="github-nav" href="https://github.com/basedjux">
-							<i className="fa fa-github"></i>
-							GitHub
+							<a className="anchor-mast-social" id="github-nav" href="https://github.com/cgmx">
+							<i className="fab fa-github"></i>
+							&nbsp;GitHub
 							</a>
 						</div>
 					</li>
 					<li className="masthead-intro-list-el">
 						<div>
 							<a className="anchor-mast-social" id="twitter-nav" href="https://twitter.com/basedjux">
-							<i className="fa fa-twitter"></i>
-							Twitter
+							<i className="fab fa-twitter"></i>
+							&nbsp;Twitter
 							</a>
 						</div>
 					</li>
 					<li className="masthead-intro-list-el">
 						<div>
-							<a className="anchor-mast-social" id="medium-nav" href="https://medium.com/@corbinmatschull">
-							<i className="fa fa-medium"></i>
-							Medium
+							<a className="anchor-mast-social" id="medium-nav" href="https://www.linkedin.com/in/corbinmatschull/">
+							<i className="fab fa-linkedin-in"></i>
+							&nbsp;LinkedIn
 							</a>
 						</div>
 					</li>

@@ -318,7 +318,7 @@ nav[class="dark"] .mastnav .nbl {
   background: #ddd;
 }
 
-.anchor-mast-social#twitter-nav .fa-twitter, .anchor-mast-social#medium-nav .fa-medium {
+.anchor-mast-social#twitter-nav .fa-twitter, .anchor-mast-social#medium-nav .fa-linkedin-in {
   transition: all 0.55s ease-in-out;
   -webkit-transition: all 0.55s ease-in-out;
   -moz-transition: all 0.55s ease-in-out;
@@ -330,8 +330,8 @@ nav[class="dark"] .mastnav .nbl {
   color: #1DA1F2;
 }
 
-.anchor-mast-social#medium-nav:hover .fa-medium {
-  color: #00AB6C;
+.anchor-mast-social#medium-nav:hover .fa-linkedin-in {
+  color: #0076b6;
 }
 
 .mast-project--main {
@@ -682,13 +682,13 @@ nav[class="dark"] .mastnav .nbl {
 }
 
 .about-title-hero-header {
-    font-size: 72pt;
+    font-size: 64pt;
     margin-top: 400px;
     margin-bottom: 10px;
 }
 
 .about-title-hero-header-sub {
-    font-size: 44pt;
+    font-size: 30pt;
     margin-top: 10px;
 }
 

@@ -23,6 +23,11 @@ export default () => (
 										<li><span>❯</span> React</li>
 										<li><span>❯</span> Next</li>
 									</ul>
+								1 year experience in
+									<ul>
+										<li><span>❯</span> Perl</li>
+										<li><span>❯</span> MySQL</li>
+									</ul>
 							</h3>
 						</div>
 
@@ -40,9 +45,9 @@ export default () => (
 						<div className="hero-point-container">
 							<h1 className="hero-title-item">Innovator</h1>
 							<h3 className="hero-title-sub">
-								With a propensity towards
+								Driven by
 									<ul>
-										<li><span>❯</span> Success driven design</li>
+										<li><span>❯</span> Designing fluent system</li>
 										<li><span>❯</span> Always learning</li>
 										<li><span>❯</span> Tackling problems head on</li>
 									</ul>
@@ -62,15 +67,16 @@ export default () => (
 							<h3 className="hero-title-sub">
 								University of Utah
 									<ul>
-										<li><span>❯</span> Spent 1 and a half years <i>(did not complete)</i></li>
-										<li><span>❯</span> Studied Computer Science</li>
-										<li><span>❯</span> Minored in Music</li>
+										<li><span>Study Period ❯</span> 2016-2017 <i>(did not complete)</i></li>
+										<li><span>Academic Catagories ❯</span> Majored in CS with Music minor</li>
+										<li className="inner-list"><span>❯</span> Computer Science</li>
+										<li className="inner-list"><span>❯</span> Jazz Piano</li>
 									</ul>
 								Davis Applied Technology College
 									<ul>
-										<li><span>❯</span> Spent 4 years</li>
-										<li><span>❯</span> Studied Computer Science and Information Technology</li>
-										<li><span>❯</span> Left with 4 Industry Certifications</li>
+										<li><span>Study Period ❯</span> 2015-2017</li>
+										<li><span>Academic Catagory ❯</span> Studied CS & IT Systems</li>
+										<li><span>Academic Achievements ❯</span> 4 Industry Certifications</li>
 										<li className="inner-list"><span>❯</span> CompTIA Strata</li>
 										<li className="inner-list"><span>❯</span> Microsoft MTA 98-366 Network Technician</li>
 										<li className="inner-list"><span>❯</span> CompTIA A+ 220-901/220-902</li>
@@ -81,10 +87,12 @@ export default () => (
 						<div className="hero-point-container">
 							<h1 className="hero-title-item">Work</h1>
 							<h3 className="hero-title-sub">
-								Peak Payment Billing Solutions (2016-<i>Present</i>)
+								Peak Payment Billing Solutions (2016-<i>Current</i>)
 									<ul>
-										<li><span>Position ❯</span> IT Engineer</li>
-										<li><span>Front End Web Dev  ❯</span> Developed our website</li>
+										<li><span>Position ❯</span> IT Engineer (2016-2017)</li>
+										<li className="inner-list"><span>Duties  ❯</span> Support and resolve issues with client workstations</li>
+										<li><span>Position ❯</span> Front End Developer (2017-<i>Current</i>)</li>
+										<li className="inner-list"><span>Duties  ❯</span> Compose and maintain our client systems in Perl and HTML</li>
 									</ul>
 							</h3>
 						</div>																	
